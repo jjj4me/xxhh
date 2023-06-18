@@ -1,5 +1,5 @@
-（function(){
-
+(function(){ 
+    
     var install_plist_url = "https://jjj4me.github.io/xxhh/installapp.plist";
     //命名空间
     var IOSAppInstaller = {}
@@ -21,4 +21,4 @@
     }
     IOSAppInstaller['install'] = install; 
 
-})()
+})()  
