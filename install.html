@@ -3,6 +3,7 @@
 <head>
 	<title>App安装</title>
 	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximu-scale=1.0,minimum-scale=1.0,user-scalable=no">
+	<link rel="stylesheet" type="javascript" href="install.js">
 </head>
 <body style="text-align: center;margin: 50px;">
 <div style="font-size: 35px;margin-top: 80px;">App安装演示</div> 
@@ -11,12 +12,8 @@
 </div>
 <script type="text/javascript">
 	function installApp() {
-		var u = navigator.userAgent;
-        alert(u);
-	}
-
-	 
-
+		IOSAppInstaller.install();
+	}  
 </script>
 </body>
 </html>
